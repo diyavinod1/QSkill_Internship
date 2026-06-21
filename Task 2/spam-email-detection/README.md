@@ -383,7 +383,7 @@ Want to see it in action?
 
 Check out the demo video and project walkthrough on my LinkedIn post:
 
-👉 **[Add LinkedIn Post Link Here]**
+👉 **[Demo Video on LinkedIn](https://www.linkedin.com/posts/diyavinod1_ai-machinelearning-nlp-ugcPost-7474405431784849408-IrmI/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgZTQ8BaC6JXgobyRLoVIbmid_nmnnksa0)**
 
 ---
 
