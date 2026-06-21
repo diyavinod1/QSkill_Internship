@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI House Price Predictor</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+
+        <div class="hero">
+            <h1>🏠 AI House Price Predictor</h1>
+
+            <p>
+                Predict real-estate prices instantly using Machine Learning
+            </p>
+        </div>
+
+        <form action="/predict" method="POST">
+
+            <div class="form-grid">
+
+                <input
+                    type="number"
+                    name="area"
+                    placeholder="Area (sq ft)"
+                    required>
+
+                <input
+                    type="number"
+                    name="bedrooms"
+                    placeholder="Bedrooms"
+                    required>
+
+                <input
+                    type="number"
+                    name="bathrooms"
+                    placeholder="Bathrooms"
+                    required>
+
+                <input
+                    type="number"
+                    name="stories"
+                    placeholder="Stories"
+                    required>
+
+                <input
+                    type="number"
+                    name="parking"
+                    placeholder="Parking Spaces"
+                    required>
+
+                <select name="mainroad">
+                    <option value="yes">Main Road - Yes</option>
+                    <option value="no">Main Road - No</option>
+                </select>
+
+                <select name="guestroom">
+                    <option value="yes">Guest Room - Yes</option>
+                    <option value="no">Guest Room - No</option>
+                </select>
+
+                <select name="basement">
+                    <option value="yes">Basement - Yes</option>
+                    <option value="no">Basement - No</option>
+                </select>
+
+                <select name="hotwaterheating">
+                    <option value="yes">Hot Water Heating - Yes</option>
+                    <option value="no">Hot Water Heating - No</option>
+                </select>
+
+                <select name="airconditioning">
+                    <option value="yes">Air Conditioning - Yes</option>
+                    <option value="no">Air Conditioning - No</option>
+                </select>
+
+                <select name="prefarea">
+                    <option value="yes">Preferred Area - Yes</option>
+                    <option value="no">Preferred Area - No</option>
+                </select>
+
+                <select name="furnishingstatus">
+
+                    <option value="furnished">
+                        Furnished
+                    </option>
+
+                    <option value="semi-furnished">
+                        Semi-Furnished
+                    </option>
+
+                    <option value="unfurnished">
+                        Unfurnished
+                    </option>
+
+                </select>
+
+            </div>
+
+            <button type="submit">
+                🚀 Predict Property Price
+            </button>
+
+        </form>
+
+        {% if prediction %}
+
+        <div class="result">
+
+            <p>Estimated Property Value</p>
+
+            <h2>{{ prediction }}</h2>
+
+        </div>
+
+        {% endif %}
+
+        <div class="footer">
+            Built with Flask • Scikit-Learn • Machine Learning
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
