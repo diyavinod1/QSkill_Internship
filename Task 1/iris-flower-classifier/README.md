@@ -291,7 +291,7 @@ Want to see it in action?
 
 📹 LinkedIn Demo:
 
-[LinkedIn Demo Video]([PASTE_YOUR_LINKEDIN_POST_LINK](https://www.linkedin.com/posts/diyavinod1_ai-machinelearning-artificialintelligence-activity-7471223369426722816-wVfD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgZTQ8BaC6JXgobyRLoVIbmid_nmnnksa0))
+[LinkedIn Demo Video](https://www.linkedin.com/posts/diyavinod1_ai-machinelearning-artificialintelligence-activity-7471223369426722816-wVfD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFgZTQ8BaC6JXgobyRLoVIbmid_nmnnksa0)
 
 Trust me, the flowers were classified respectfully. 🌸😂
 
